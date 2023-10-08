@@ -12,6 +12,5 @@ const (
 )
 
 func main() {
-
-	fmt.Printf("Próximos anos: %d, %d, %d", a, b, c)
+	fmt.Printf("\nPróximos anos: %d, %d, %d", a, b, c)
 }
