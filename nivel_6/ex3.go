@@ -22,7 +22,7 @@ func (c circulo) area() float64 {
 }
 
 type info interface {
-	area() float64 // Add return type to the interface method
+	area() float64
 }
 
 func get_info(i info) {
