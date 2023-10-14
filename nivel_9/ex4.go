@@ -22,7 +22,7 @@ func falarAlgo(h humano) {
 }
 
 func main() {
-	pessoa1 := pessoa{"jorge", 31}
+	pessoa1 := pessoa{"jorge", 32}
 
 	pessoa1.falar()
 	falarAlgo(&pessoa1)
